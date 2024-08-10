@@ -2,96 +2,83 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Lucca Carvalho Augusto
     - name: Date of Birth
-      value: 14th March 1879
+      value: 3th June 2000
     - name: Languages
-      value: English, German
+      value: Portuguese, English
+    - name: Local
+      value: Belo Horizonte - Minas Gerais, Brazil
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Technical High School in Eletronic
+      institution: Centro Federal de Educação Tecnológica (CEFET-MG), Belo Horizonte, Minas Gerais, Brazil
+      year: 2016-2018
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - High School
+        - Technical course in Eletronic
+    - title: Bachelor in Computer Science
+      institution: Universidade Federal de Minas Gerais (UFMG), Belo Horizonte, Minas Gerais, Brazil
+      year: 2019-2024
       description:
-        - Description 1.
-        - Description 2.
+        - Common programming classes
+        - Focus on:
+            - Data Science
+            - Machine Learning
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Business Intelligence Analyst
+      institution: Quasar
+      year: 2023-now
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        Came back to the previous job with more coding experience and started to translate the ETLs from Pentaho softwares to python with Apache Airflow, improving speed and maintainability in addition to allowing performing heavier computations with large databases.
+
+    - title: Developer Internship
+      institution: New Age Sports
+      year: 2023
       description:
-        - Description 1.
-        - Description 2.
+        First I worked as a mobile full stack dev with Flutter, developing an application that would be like a video social media focused on street basketball with gamification. With the screen drawn in Photoshop I was responsible to make the backend and frontend of it.
+        Later I was moved to work with the APIs in the backend of the application, coding in python and using Google Cloud Functions initially and Lambda Functions after we moved some functionalities to AWS infrastructure.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Developer Internship
+      institution: Quasar
+      year: 2022-2023
       description:
+        Work with data warehouses in the BI area modeling (with Pentaho Schema Workbench), making the ETL, “Extract, Transform and Load” (with SQL, Pentaho Data Integration and Python), and analytical panels to visualize the data (using Pentaho CDE, HTML, CSS and JavaScript).
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: Developer Internship
+      institution: Grupo Otimiza
+      year: 2021-2022
+      description:
+        Worked on maintenance and creation of Otimiza’s products, like web systems, REST APIs and desktop programs, being the most of this products in C# with frameworks, .NET for desktop, Xamarin for mobile and ASP.NET for websites. A few new web page products are being developed in TypeScript with the Angular framework.
 
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Scientific Initiation Researcher
+      institution: Smart Sense Lab
+      year: 2019-2021
+      description:
+        Made researches on the area of Artificial Intelligence to classify motorcycles images by the maker, model and class, in a handcrafted dataset, using different techniques of deep learning and neural networks with Python TensorFlow.
+
+    - title: Trainee and Web/Mobile Developer
+      institution: UFMG Informática Júnior
+      year: 2019
+      description:
+        The Trainee Program taught how to make a simple web system with the most used languages, like SQL, PHP, HTML and CSS. Was created a fake client, an iJunior’s volunteer, and he asked a web system for your fake enterprise.
+        
+        The iJunior, like many other junior enterprises, stimulates the development of many soft skills, because the workers have two functions, one technique and other in management, like developer and marketing assistant in my case. Worked on the development of a web system in Flask (Python) and a mobile application in Flutter, a Dart framework.
+
+#- title: Open Source Projects
+#  type: time_table
+#  contents:
+#    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
+#      year: 2015-now
+#      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - title: Bronze Medal on Brazilian Mathematics Olympiad for Public Schools
+      year: 2018
