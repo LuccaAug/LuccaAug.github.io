@@ -2,12 +2,12 @@
 layout: page
 permalink: /repositories/
 title: repositories
-description: Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.
+description: Own repositories on some classes and personal projects or repositories that I'm a collaborator partner  
 nav: true
 nav_order: 4
 ---
 
-## GitHub users
+## GitHub Account stats
 
 {% if site.data.repositories.github_users %}
 
@@ -35,12 +35,12 @@ nav_order: 4
 {% endif %}
 {% endif %}
 
-## GitHub Repositories
+## Own GitHub Repositories
 
-{% if site.data.repositories.github_repos %}
+{% if site.data.repositories.github_own_repos %}
 
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for repo in site.data.repositories.github_repos %}
+  {% for repo in site.data.repositories.github_own_repos %}
     {% include repository/repo.liquid repository=repo %}
   {% endfor %}
 </div>
